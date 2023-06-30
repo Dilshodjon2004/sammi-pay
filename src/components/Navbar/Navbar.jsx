@@ -62,7 +62,7 @@ const Navbar = () => {
                 } font-montserrat font-normal cursor-pointer text-[16px] mr-10  hover:text-white transition-all duration-500`}
                 onClick={() => activeHandler(nav.id)}
               >
-                {nav.title}
+                
               </li>
             ))}
           </ul>

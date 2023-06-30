@@ -8,6 +8,7 @@ import Business from "./components/Business/Business";
 import CTA from "./components/CTA/Cta";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Clients from "./components/Clients/Clients";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -36,8 +37,9 @@ const App = () => {
           <Business />
           {/* CTA */}
           <Testimonials />
-          <CTA />
           <Clients />
+          <CTA />
+          <Footer />
           {/* Footer */}
         </div>
       </div>
