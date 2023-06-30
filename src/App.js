@@ -4,6 +4,10 @@ import Home from "./components/Home/Home";
 import Statistics from "./components/Statistics/Statistics";
 import Contract from "./components/Contract/Contract";
 import Billing from "./components/Billing/Billing";
+import Business from "./components/Business/Business";
+import CTA from "./components/CTA/Cta";
+import Testimonials from "./components/Testimonials/Testimonials";
+import Clients from "./components/Clients/Clients";
 
 const App = () => {
   return (
@@ -28,6 +32,13 @@ const App = () => {
           <Statistics />
           <Contract />
           <Billing />
+          {/* Business */}
+          <Business />
+          {/* CTA */}
+          <Testimonials />
+          <CTA />
+          <Clients />
+          {/* Footer */}
         </div>
       </div>
     </div>
