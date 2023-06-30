@@ -5,6 +5,7 @@ import FeedbackCard from "../FeedbackCard/FeedbackCard";
 const Testimonials = () => {
   return (
     <div
+      id="clients"
       className={`${styles.flexCenter} ${styles.paddingY} flex-col relative`}
     >
       <div className="absolute z-0 w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40" />
