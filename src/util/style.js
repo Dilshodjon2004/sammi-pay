@@ -13,7 +13,7 @@ export const styles = {
   heading1:
     "font-montserrat font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]",
   heading2:
-    "font-montserrat font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
+    "font-montserrat font-semibold ss:text-[48px] text-[35px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
 };
 
 export const layout = {

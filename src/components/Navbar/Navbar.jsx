@@ -57,9 +57,10 @@ const Navbar = () => {
                 key={nav.id}
                 className={`${
                   idx === navigationLinks.length - 1 ? "mr-0" : "mr-10"
-                } ${
+                } ${idx === 0 ? "mt-0" : "mt-5"}
+                ${
                   active === nav.id ? "text-white" : "text-lightWhite"
-                } font-montserrat font-normal cursor-pointer text-[16px] mr-10  hover:text-white transition-all duration-500`}
+                } font-montserrat font-normal cursor-pointer text-[18px] mr-10  hover:text-white transition-all duration-500`}
                 onClick={() => activeHandler(nav.id)}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>
